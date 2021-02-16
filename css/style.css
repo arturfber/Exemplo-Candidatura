@@ -1,0 +1,322 @@
+        /* ====================  C A B E Ç A L H O  ==================== */
+        body{
+            background-color: #FFF;
+        }
+
+        .cabecalho{
+            width: 100%;
+            padding: 4%;
+        }
+
+        .cabecalho .menu{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cabecalho .menu li{
+            margin: 0 2%;
+            list-style: none;
+            font-size: 2.8vw;
+            line-height: 100%;
+            font-weight: 900;
+            color: #065b9b;
+            
+        }
+
+        .cabecalho .menu .icon{
+            font-size: 5vw;
+        }
+
+        .cabecalho .menu a{
+            color: #065b9b;
+        }
+
+        /* ====================  P R I N C I P A L  ==================== */
+        .principal{
+            position: relative;
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ==========  IMAGENS  ========== */
+        .principal .obama{
+            position: absolute;
+        }
+
+        .principal .prb{
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 3% 5%;
+            width: 12%;
+        }
+
+         /* ==========  INTRODUÇÃO  ========== */
+        .principal .details{
+            width: 100%;
+            position: relative;
+            border-radius: 80px 80px 0 0;
+            background-color: #FFF;
+            color: #8c8c8c;
+            padding: 10%;
+            font-size: 50px;
+            margin-top: 100%;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .principal .details span{
+            width: 80%;
+        }
+
+        .principal .details span h1{
+            font-size: 5.8vw;
+            font-weight: 900;
+            color: #000;
+        }
+
+        .principal .details span h2{
+            margin-top: 1%;
+            font-size: 2.5vw;
+        }
+
+        .principal .details .number{
+            color: #FFF;
+            background-color: #065b9b;
+            border-radius: 100%;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            padding: 1%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .principal .details .texto{
+            margin-top: 4%;
+            border-bottom: 2px solid rgba(140, 140, 140, 0.2);
+            font-size: 2.2vw;
+            padding-bottom: 5%;
+            line-height: 35px;
+        }
+
+        /* ==========  DADOS PESSOAIS  ========== */
+        .personal-data{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .personal-data div{
+            width: 20%;
+            background-color: #f2f2f2;
+            border: 6px solid #FFF;
+            box-shadow: 0 0 0 3px rgba(140, 140, 140, 0.2);
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 20px;
+            margin: 5% 0;
+            padding: 2%;
+            
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .personal-data div i{ 
+            font-size: 4vw;
+            margin-bottom: 15px;
+            
+        }
+
+         /* ==========  SITUAÇÃO  ========== */
+         .situation{
+            width: 100%; 
+            border: 4px solid #FFF;
+            box-shadow: 0 0 0 3px rgba(140, 140, 140, 0.2);
+            border-radius: 5px;
+
+            display: flex;
+            flex-wrap: wrap;
+         }
+
+         .situation #d1{
+            width: 50%;
+            padding: 3%;
+            font-size: 2vw;
+            color: #8c8c8c;
+            font-weight: 700;
+            background-color: #f2f2f2;
+            border-radius: 0 0 0 5px;
+
+            display: flex;
+            flex-direction: column;
+         }
+
+         .situation span{
+            font-size: 1.2vw;
+         }
+
+         .situation #d2{
+             width: 50%;
+             background-color: #00a297;
+             font-size: 2vw;
+             color: #FFF;
+             border-radius: 0 5px 5px 0;
+
+             display: flex;
+             align-items: center;
+             justify-content: center;
+         }
+
+          /* ==========  HISTÓRICO  ========== */
+         .historic{
+            width: 100%;
+            margin-top: 6%;
+            padding-top: 6%;
+            border-top: 2px solid rgba(140, 140, 140, 0.2);
+
+            display: flex;
+            font-size: 20px;
+            color: #FFF;
+         }
+
+         .historic .hist1{
+            width: 60%;
+            background-color: #024273;
+            padding: 3%;
+            border-radius: 8px 0 0 8px;
+            box-shadow: -2px 0px 10px 1px #80a0b9;
+            cursor: pointer;
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .historic .hist2{
+            width: 40%;
+            background-color: #065b9b;
+            padding: 3%;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 6px 0px 10px 1px #82accd;
+            cursor: pointer;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* ==========  MATÉRIAS  ========== */
+        .news{
+            width: 100%;
+            color: #FFF;
+            padding: 3% 10%;         
+        }
+
+        .news h2{
+            font-size: 3vw;
+            color: #000;
+            font-weight: 900;
+        }
+
+        .news .div-news{
+            display: flex;
+            justify-content: space-between;
+            margin: 1% 0;
+            
+        }
+
+        .news section{
+            width: 33%;
+            height: 300px;
+            background-size: cover;
+            font-weight: 500;
+            font-size: 2.5vw;
+            cursor: pointer;
+
+            display: flex;
+            padding: 2%;
+            align-items: flex-end;
+        }
+
+        .news .news-1{
+            background-image: url(../img/crivella1-news.jpg);
+        }
+
+        .news .news-2{
+            background-image: url(../img/crivella2-news.jpg);
+            margin: 0 1%;
+        }
+
+        .news .news-3{
+            background-image: url(../img/crivella3-news.jpg);
+        }
+
+    /* ==========  OUTROS CANDIDADTOS  ========== */
+    .outros-cand{
+        width: 100%;
+        padding: 3% 10%;
+    }
+
+    .outros-cand h2{
+        font-size: 3vw;
+        color: #000;
+        font-weight: 900;
+    }
+
+    .outros-cand .div-outros{
+        display: flex;
+        text-align: center;
+
+    }
+
+    .outros-cand .outros{
+        width: 20%;
+        margin: 2% 0.5%;
+
+    }
+    
+    .outros-cand .outros img{
+        border-radius: 100%;
+        width: 70%;
+        margin-bottom: 3%;
+    }
+
+    .outros-cand .outros h1{
+        font-size: 2vw;
+        font-weight: 700;
+    }
+
+    .outros-cand .outros h3{
+        font-size: 1.1vw;
+        color: rgb(140, 140, 140);
+    }
+
+    .rodape{
+        width: 100%;
+        padding: 3% 10%;
+        background-color: #065b9b;
+        color: #FFF;
+        font-size: 2vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+        
+
+
+
+
+        
+
